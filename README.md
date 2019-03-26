@@ -2,7 +2,7 @@
 ====
 
 ## 本プログラムについて
-本プログラムはLine Clova用のExtensionプログラムのサンプルで
+本プログラムはLine Clova用スキルのExtensionプログラムのサンプルで
 node.js言語で記述しています。
 
 なお、本プログラムを実行するには、node.js(express)が実行できるWEBサーバが必要で
@@ -16,6 +16,7 @@ https://clova-developers.line.biz/
 `$ sudo curl -sL https://rpm.nodesource.com/setup_10.x | bash -`
 
 ### nodejsのインストール
+
 `$ sudo yum install -y nodejs`
 
 ### ディレクトリ作成
@@ -25,12 +26,16 @@ https://clova-developers.line.biz/
 `$ cd time`
 
 ### 本プログラムをGIT Clone
+
 `$ git clone git@github.com:asciiclova/time.git`
 
 ## Usage
+
 ターミナルで、本ディレクトリtimeに入り、下記コマンドで実行
+
 `$ node app.js`
-Clova Developper Centerでスキルを作成して、テストを実行することができます。
+
+Clova Developper Centerでスキルを作成して、動作テストを行うことができます。
 
 ## Licence
 
