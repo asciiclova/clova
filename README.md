@@ -1,4 +1,4 @@
-古時刻スキル(Clova用のExtension)
+古時刻スキル(LineClova用のExtension)
 ====
 
 ## 本プログラムについて
@@ -29,7 +29,7 @@ https://clova-developers.line.biz/
 
 `$ git clone git@github.com:asciiclova/time.git`
 
-### Usage
+## Usage
 
 ターミナルで、本ディレクトリtimeに入り、下記コマンドで実行
 
