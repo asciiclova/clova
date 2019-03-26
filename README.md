@@ -1,4 +1,4 @@
-古時刻
+古時刻スキル(Clova用のExtension)
 ====
 
 Overview
