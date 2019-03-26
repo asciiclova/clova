@@ -127,7 +127,7 @@ https://clova-developers.line.biz/
 
 ## Licence
 
-[MIT](https://github.com/ascii/tool/blob/master/LICENCE)
+[MIT](https://github.com/asciiclova/time/blob/master/LICENSE)
 
 ## Author
 
