@@ -24,11 +24,11 @@ https://clova-developers.line.biz/
 
 ・Clova Extensions Kitソフトウェア開発キット（for Node.js ）
 
-## Install　（AWS EC2の場合）
+## インストール　（AWS EC2の場合）
 #### リポジトリの取得
 `$ sudo curl -sL https://rpm.nodesource.com/setup_10.x | bash -`
 
-#### nodejsのインストール
+#### node.jsのインストール
 
 `$ sudo yum install -y nodejs`
 
@@ -43,16 +43,18 @@ https://clova-developers.line.biz/
 
 `$ git clone git@github.com:asciiclova/time.git`
 
-## Usage
+## 使用方法
 
-ターミナルで、本ディレクトリtimeに入り、下記コマンドで実行
+1.Clova Developper Centerでスキルを作成する。
+
+2.ターミナルで、本ディレクトリtimeに入り、下記コマンドで実行
 
 `$ node app.js`
 
-Clova Developper Centerでスキルを作成して動作テストを行うことができます。
-テスト画面から、「いまなんどきだい」と入力すると、結果のjsonがが返答されることを確認できます。
+3.Clova Developper Centerのテスト画面から、「いまなんどきだい」と入力すると
+結果のjsonがが返答されることを確認できます。
 
-【サービスリクエスト】
+【サービスリクエストJSON】（テスト画面から）
 
 `{
     "version": "1.0",
@@ -102,7 +104,7 @@ Clova Developper Centerでスキルを作成して動作テストを行うこと
     }
 }`
 
-【サービス応答JSON】
+【サービス応答JSON】（サーバ処理結果）
 `{
     "response": {
         "card": {},
