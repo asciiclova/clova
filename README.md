@@ -1,15 +1,25 @@
 古時刻スキル(LineClova用サーバExtension)
 ====
 
-## 本プログラムについて
-本プログラムはLine Clova用スキルのExtensionプログラムのサンプルで
-node.js言語で記述しています。
+## 本リポジトリについて
+本リポジトリは、ascii.jp の連載記事「clovaスキル開発― 第1回」で紹介された記事に対応したソースコードとなります。
+ソースコードの注目点につきましては、ascii.jp様の記事にて紹介しておりますので、以下のリンクよりご確認ください。
 
-なお、本プログラムを実行するには、node.js(express)が実行できるWEBサーバが必要で
+https://ascii.jp/
+
+なお、本プログラムはLine Clova用スキルのExtensionプログラムのサンプルでnode.js言語で記述しています。
+
+本プログラムを実行するには、node.js(express)が実行できるWEBサーバが必要で
 Clova Developper CenterからアクセスできるようURLが公開されている必要があります。
 
 Clova Developper Centerについて詳しくはこちらをご参照ください
 https://clova-developers.line.biz/
+
+## 実行環境、制限事項
+・WEBサーバ（AWS EC2）
+・node.js　v10.15.3
+・npm 6.4.1
+・Clova Extensions Kitソフトウェア開発キット（for Node.js ）
 
 ## Install　（AWS EC2の場合）
 #### リポジトリの取得
