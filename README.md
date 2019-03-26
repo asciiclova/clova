@@ -1,4 +1,4 @@
-古時刻スキル(LineClova用のExtension)
+古時刻スキル(LineClova用サーバExtension)
 ====
 
 ## 本プログラムについて
