@@ -30,16 +30,16 @@ AWS EC2の場合
 `$ npm --version`
 
 ### ディレクトリ作成
-`mkdir time`
+`$ mkdir time`
 
 ### ディレクトリ移動
-`cd time`
+`$ cd time`
 
 ### 本プログラムのclone
-`git clone git@github.com:asciiclova/time.git`
+`$ git clone git@github.com:asciiclova/time.git`
 
 ### 実行
-`node app.js`
+`$ node app.js`
 
 ## Contribution
 
