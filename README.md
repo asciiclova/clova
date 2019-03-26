@@ -43,4 +43,4 @@ Clova Developper Centerでスキルを作成して、動作テストを行うこ
 
 ## Author
 
-[ascii](https://github.com/ascii)
+[ascii](https://github.com/asciiclova)
