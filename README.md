@@ -19,7 +19,7 @@ https://clova-developers.line.biz/
 
 `$ sudo yum install -y nodejs`
 
-#### ディレクトリ作成
+#### 本プログラム用ディレクトリ作成
 `$ mkdir time`
 
 #### ディレクトリ移動
@@ -27,6 +27,7 @@ https://clova-developers.line.biz/
 
 #### 本プログラムをGIT Clone
 `$ git init`
+
 `$ git clone git@github.com:asciiclova/time.git`
 
 ## Usage
@@ -35,7 +36,77 @@ https://clova-developers.line.biz/
 
 `$ node app.js`
 
-Clova Developper Centerでスキルを作成して、動作テストを行うことができます。
+Clova Developper Centerでスキルを作成して動作テストを行うことができます。
+テスト画面から、「いまなんどきだい」と入力すると、結果のjsonがが返答されることを確認できます。
+
+【サービスリクエスト】
+
+`{
+    "version": "1.0",
+    "session": {
+        "sessionId": "c1f3fb22-c483-4120-9fcc-3e82b0597848",
+        "sessionAttributes": {},
+        "user": {
+            "userId": "kccdM54MSxmSWo6RoZV51w",
+            "accessToken": "0f876ca4-0525-4fb1-b9b7-73af46b5399c"
+        },
+        "new": true
+    },
+    "context": {
+        "System": {
+            "application": {
+                "applicationId": "jp.ascii.time"
+            },
+            "user": {
+                "userId": "kccdM54MSxmSWo6RoZV51w",
+                "accessToken": "0f876ca4-0525-4fb1-b9b7-73af46b5399c"
+            },
+            "device": {
+                "deviceId": "b5dc977e-0ebe-40f8-880c-4e7490fba24b",
+                "display": {
+                    "size": "l100",
+                    "orientation": "landscape",
+                    "dpi": 96,
+                    "contentLayer": {
+                        "width": 640,
+                        "height": 360
+                    }
+                }
+            }
+        }
+    },
+    "request": {
+        "type": "IntentRequest",
+        "intent": {
+            "name": "WhatTimeIntent",
+            "slots": {
+                "WhatTimeSlot": {
+                    "name": "WhatTimeSlot",
+                    "value": "なんどきだい"
+                }
+            }
+        }
+    }
+}`
+
+【サービス応答JSON】
+`{
+    "response": {
+        "card": {},
+        "directives": [],
+        "outputSpeech": {
+            "type": "SimpleSpeech",
+            "values": {
+                "lang": "ja",
+                "type": "PlainText",
+                "value": "うま一つどき"
+            }
+        },
+        "shouldEndSession": false
+    },
+    "sessionAttributes": {},
+    "version": "1.0"
+}`
 
 ## Licence
 
