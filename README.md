@@ -26,7 +26,7 @@ https://clova-developers.line.biz/
 `$ cd time`
 
 #### 本プログラムをGIT Clone
-
+`$ git init`
 `$ git clone git@github.com:asciiclova/time.git`
 
 ## Usage
