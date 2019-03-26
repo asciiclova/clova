@@ -5,18 +5,11 @@
 本プログラムはLine Clova用のExtensionプログラムのサンプルで
 node.js言語で記述しています。
 
-なお、本プログラムを実行するには、WEBサーバが必要で
+なお、本プログラムを実行するには、node.js(express)が実行できるWEBサーバが必要で
 Clova Developper CenterからアクセスできるようURLが公開されている必要があります。
 
 Clova Developper Centerについて詳しくはこちらをご参照ください
 https://clova-developers.line.biz/
-
-## Demo
-
-## Usage
-ターミナルで、本ディレクトリtimeに入り、下記コマンドで実行
-`$ node app.js`
-Clova Developper Centerでスキルを作成して、テストを実行することができます。
 
 ## Install　（AWS EC2の場合）
 ### リポジトリの取得
@@ -33,6 +26,11 @@ Clova Developper Centerでスキルを作成して、テストを実行するこ
 
 ### 本プログラムをGIT Clone
 `$ git clone git@github.com:asciiclova/time.git`
+
+## Usage
+ターミナルで、本ディレクトリtimeに入り、下記コマンドで実行
+`$ node app.js`
+Clova Developper Centerでスキルを作成して、テストを実行することができます。
 
 ## Licence
 
