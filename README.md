@@ -12,24 +12,24 @@ Clova Developper Centerについて詳しくはこちらをご参照ください
 https://clova-developers.line.biz/
 
 ## Install　（AWS EC2の場合）
-### リポジトリの取得
+#### リポジトリの取得
 `$ sudo curl -sL https://rpm.nodesource.com/setup_10.x | bash -`
 
-### nodejsのインストール
+#### nodejsのインストール
 
 `$ sudo yum install -y nodejs`
 
-### ディレクトリ作成
+#### ディレクトリ作成
 `$ mkdir time`
 
-### ディレクトリ移動
+#### ディレクトリ移動
 `$ cd time`
 
-### 本プログラムをGIT Clone
+#### 本プログラムをGIT Clone
 
 `$ git clone git@github.com:asciiclova/time.git`
 
-## Usage
+### Usage
 
 ターミナルで、本ディレクトリtimeに入り、下記コマンドで実行
 
