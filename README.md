@@ -1,8 +1,6 @@
 古時刻スキル(Clova用のExtension)
 ====
 
-Overview
-
 ## 本プログラムについて
 本プログラムはLine Clova用のExtensionプログラムのサンプルで
 node.js言語で記述しています。
