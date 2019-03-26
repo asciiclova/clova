@@ -131,4 +131,4 @@ https://clova-developers.line.biz/
 
 ## Author
 
-[ascii](https://github.com/asciiclova)
+[© KADOKAWA ASCII Research Laboratories, Inc.](https://github.com/asciiclova)
