@@ -17,8 +17,11 @@ https://clova-developers.line.biz/
 
 ## 実行環境、制限事項
 ・WEBサーバ（AWS EC2）
+
 ・node.js　v10.15.3
+
 ・npm 6.4.1
+
 ・Clova Extensions Kitソフトウェア開発キット（for Node.js ）
 
 ## Install　（AWS EC2の場合）
