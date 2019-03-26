@@ -3,7 +3,7 @@
 
 ## 本リポジトリについて
 本リポジトリは、ascii.jp の連載記事「clovaスキル開発― 第1回」で紹介された記事に対応したソースコードとなります。
-ソースコードの注目点につきましては、ascii.jp様の記事にて紹介しておりますので、以下のリンクよりご確認ください。
+ソースコードの注目点につきましては、ascii.jpの記事にて紹介しておりますので、以下のリンクよりご確認ください。
 
 https://ascii.jp/
 
@@ -35,15 +35,17 @@ https://clova-developers.line.biz/
 `$ sudo yum install -y nodejs`
 
 #### 本プログラム用ディレクトリ作成
-`$ mkdir time`
+`$ mkdir path/to/time`
 
 #### ディレクトリ移動
-`$ cd time`
+`$ cd path/to/time`
 
 #### 本プログラムをGIT Clone
 `$ git init`
 
 `$ git clone git@github.com:asciiclova/time.git`
+
+本リポジトリにClova Extensions Kitソフトウェア開発キットとnode.js、expressは含まれます。
 
 ## 使用方法
 
