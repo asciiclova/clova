@@ -4,9 +4,8 @@
 Overview
 
 ## 本プログラムについて
---
-本プログラムはLine Clova用のExtensionプログラムです。
-node.js言語で
+本プログラムはLine Clova用のExtensionプログラムサンプルで
+node.js言語で記述しています。
 
 ## Demo
 
